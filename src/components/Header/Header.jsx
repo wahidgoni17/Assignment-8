@@ -2,7 +2,7 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="bg-teal-950 text-stone-200 h-20 flex flex-col lg:flex-row justify-between items-center">
+    <div className="bg-gray-100 h-20 flex flex-col lg:flex-row justify-between items-center rounded-xl">
       <div>
         <h1 className="text-4xl font-bold ml-12 ">Knowledge Cafe</h1>
       </div>
