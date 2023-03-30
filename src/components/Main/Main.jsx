@@ -13,12 +13,10 @@ const Main = () => {
     }, [])
     const handletimer = (blog) =>{
         const newBlog = [...singleBlog, blog]
-        console.log(newBlog)
         setBlog(newBlog)
     }
     const handleBookmark = (blog) =>{
         const newBookmark = [...bookmark, blog]
-        console.log(newBookmark)
         setBookmark(newBookmark)
     }
     return (
@@ -35,7 +33,7 @@ const Main = () => {
                     ))
                 }
             </div>
-            <div className='side-bar relative my-6 mr-4 rounded-2xl text-2xl font-bold'>
+            <div className='side-bar my-6 mr-4 rounded-2xl text-2xl font-bold'>
                 <Sidebar Blog={singleBlog} Bookmark={bookmark}></Sidebar>
             </div>
         </div>
