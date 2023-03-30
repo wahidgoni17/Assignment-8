@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "6425a0871e6e45b87ecca7a6",
+    "title": "How to Earn as a programmer",
+    "coverURL": "https://media.istockphoto.com/id/1424248629/photo/digital-technology-big-data-storage-digital-software-development-cyber-security-concept.jpg?s=1024x1024&w=is&k=20&c=IGbpz2fiYpxef7iPgKV02skQ04Z9AkeiwvV9y4rECBE=",
+    "readTime": 10,
+    "authorURL": "https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=1024x1024&w=is&k=20&c=iGtRKCTRSvPVl3eOIpzzse5SvQFfImkV0TZuFh-74ps=",
+    "name": "Maria Combs",
+    "publishedData": "Mar 14"
+  },
+  {
+    "_id": "6425a0878fd41c2fa60b3123",
+    "title": "How to Overcome your fear of JAVAScript",
+    "coverURL": "https://media.istockphoto.com/id/1462196073/photo/students-working-together-in-the-computer-lab.jpg?s=1024x1024&w=is&k=20&c=LAmkAwnI1WEXnq2WvXkXtQ0kiAbVzCeXB_wclN_Tn2Y=",
+    "readTime": 14,
+    "authorURL": "https://media.istockphoto.com/id/1149470812/photo/it-feels-good-to-succeed.jpg?s=1024x1024&w=is&k=20&c=WmjrmnTwNnPT6Tn2RxWIWZI7tGL2fTnvAAUTOLRX-_I=",
+    "name": "Jhon Luther",
+    "publishedData": "Mar 05"
+  },
+  {
+    "_id": "6425a087fb7f4fb3844ca047",
+    "title": "How to get your first job as a self-taught programmer",
+    "coverURL": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+    "readTime": 11,
+    "authorURL": "https://media.istockphoto.com/id/504369459/photo/working-hard-to-get-to-the-top.jpg?s=1024x1024&w=is&k=20&c=s14rHkvWxLUVXdZx3FVPC-OZdvp8DNHjIM4Tav_Okrs=",
+    "name": "Lisa Small",
+    "publishedData": "May 20"
+  },
+  {
+    "_id": "6425a087a4e11c25fb5c8477",
+    "title": "Be a pro level Programmer",
+    "coverURL": "https://media.istockphoto.com/id/1336271758/photo/programming-source-code-on-digital-screen-software-developer-and-internet-programming-html.jpg?s=1024x1024&w=is&k=20&c=y8qNwBpYVVCmhdxhe0t1WMkhVIxUlsGqwQwgKPdKOYg=",
+    "readTime": 15,
+    "authorURL": "https://www.istockphoto.com/photo/headshot-portrait-of-smiling-ethnic-businessman-in-office-gm1300512215-392818237?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmale-profile&utm_term=male%20profile%3A%3A%3A",
+    "name": "Ramos James",
+    "publishedData": "jan 18"
+  }
+]
