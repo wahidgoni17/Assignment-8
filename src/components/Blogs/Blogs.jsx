@@ -9,6 +9,8 @@ const Blogs = (props) => {
     authorURL, 
     name, 
     publishedData } = props.blog;
+    const handletimer = props.handletimer
+    const handleBookmark = props.handleBookmark
   return (
     <div className="card card-compact w-full ml-3 my-6 shadow-xl">
       <figure>
@@ -27,7 +29,7 @@ const Blogs = (props) => {
                 </div>
             </div>
             <div>
-                <h4 className="text-slate-600">{readTime} min read  <FontAwesomeIcon icon={faBookmark} /></h4>
+                <h4 className="text-slate-600">{readTime} min read  <FontAwesomeIcon onClick={()=>handleBookmark(props.blog)} icon={faBookmark} /></h4>
             </div>
         </div>
         <div>
