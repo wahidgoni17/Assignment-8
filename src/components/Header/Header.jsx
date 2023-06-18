@@ -1,16 +1,53 @@
 import React from "react";
 
 const Header = () => {
+  const navLinks = (
+    <>
+      <li>
+        <a>Blogs</a>
+      </li>
+      <li>
+        <a>Contact Us</a>
+      </li>
+      <li>
+        <a>About</a>
+      </li>
+    </>
+  );
   return (
-    <div className="bg-gray-100 h-20 flex flex-col lg:flex-row justify-between items-center rounded-xl">
-      <div>
-        <h1 className="text-4xl font-bold ml-12 ">Knowledge Cafe</h1>
+    <div className="navbar px-5 py-5">
+      <div className="navbar-start">
+        <div className="dropdown">
+          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
+          </label>
+          <ul
+            tabIndex={0}
+            className="menu menu-sm dropdown-content mt-3 p-2 shadow rounded-box bg-white w-52"
+          >
+            {navLinks}
+          </ul>
+        </div>
+        <a className="btn btn-ghost normal-case text-3xl">Knowledge Cafe</a>
       </div>
-      <div className="flex text-xl gap-4 mr-12">
-        <a href="contact">Contact</a>
-        <a href="About">About</a>
-        <a href="Login">Log In</a>
-        <img className="w-10 h-10 rounded-full" src="../../assets/female-attorney-headshot-oc.jpg" alt="" />
+      <div className="navbar-center hidden lg:flex">
+        <ul className="menu menu-horizontal font-semibold px-1">{navLinks}</ul>
+      </div>
+      <div className="navbar-end">
+        <a className="btn btn-secondary btn-outline">Log In</a>
       </div>
     </div>
   );
